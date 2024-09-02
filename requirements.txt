@@ -3,6 +3,3 @@ streamlit
 sentencepiece
 requests
 flask
-torch
-torchvision
-torchaudio
