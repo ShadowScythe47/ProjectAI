@@ -3,4 +3,4 @@ streamlit
 sentencepiece
 requests
 flask
-pytorch
+torch
