@@ -3,7 +3,6 @@ from transformers import MarianMTModel, MarianTokenizer
 
 app = Flask(__name__)
 
-# Load models and tokenizers for both translation directions
 model_en_to_es = MarianMTModel.from_pretrained('Helsinki-NLP/opus-mt-en-es')
 tokenizer_en_to_es = MarianTokenizer.from_pretrained('Helsinki-NLP/opus-mt-en-es')
 
